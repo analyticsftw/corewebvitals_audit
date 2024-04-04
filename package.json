@@ -1,0 +1,35 @@
+{
+  "name": "speedmeter",
+  "version": "1.0.0",
+  "description": "Injects Core Web Vital detection tools into a webpage, crawls it, and reports metrics to Google BigQuery via a Cloud Function.",
+  "main": "cwv.js",
+  "dependencies": {
+    "playwright": "^1.38.1",
+    "playwright-chromium": "^1.38.1",
+    "playwright-core": "^1.38.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/analyticsftw/speed_meter.git"
+  },
+  "keywords": [
+    "core",
+    "web",
+    "vitals",
+    "cloud",
+    "function",
+    "bigquery",
+    "playwright",
+    "headless"
+  ],
+  "author": "Julien Coquet",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/analyticsftw/speed_meter/issues"
+  },
+  "homepage": "https://github.com/analyticsftw/speed_meter#readme"
+}
